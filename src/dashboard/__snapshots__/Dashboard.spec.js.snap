@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard renders with controls and display 1`] = `
+<Dashboard>
+  <Display
+    closed={false}
+    locked={false}
+  >
+    <div
+      className="display panel"
+    >
+      <div
+        className="led green-led"
+      >
+        Unlocked
+      </div>
+      <div
+        className="led green-led"
+      >
+        Open
+      </div>
+    </div>
+  </Display>
+  <Controls
+    closed={false}
+    locked={false}
+    toggleClosed={[Function]}
+    toggleLocked={[Function]}
+  >
+    <div
+      className="controls panel"
+    >
+      <button
+        className="toggle-btn"
+        data-testid="lock-unlock"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Lock Gate
+      </button>
+      <button
+        className="toggle-btn"
+        data-testid="open-close"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Close Gate
+      </button>
+    </div>
+  </Controls>
+</Dashboard>
+`;
+
+exports[`Dashboard renders with controls and display 2`] = `
+<Fragment>
+  <Display
+    closed={false}
+    locked={false}
+  />
+  <Controls
+    closed={false}
+    locked={false}
+    toggleClosed={[Function]}
+    toggleLocked={[Function]}
+  />
+</Fragment>
+`;

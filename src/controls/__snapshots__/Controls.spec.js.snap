@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`provide buttons to toggle the closed and locked states. 1`] = `
+<div
+  className="controls panel"
+>
+  <button
+    className="toggle-btn"
+    data-testid="lock-unlock"
+    disabled={true}
+  >
+    Lock Gate
+  </button>
+  <button
+    className="toggle-btn"
+    data-testid="open-close"
+  >
+    Close Gate
+  </button>
+</div>
+`;
